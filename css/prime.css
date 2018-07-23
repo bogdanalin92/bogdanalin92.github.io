@@ -6,6 +6,13 @@
     background-color: #f1f1f1;
     height: 100%;
 }
+
+div.col-sm-3.sidenav{
+    width:30%;
+    padding-left:40px;
+    padding-right:40px;
+}
+
 .w3-theme-dark {
     color:#fff !important; 
     background-color:#1b7a9f !important
