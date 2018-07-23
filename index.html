@@ -15,8 +15,7 @@
         <h1>Here it lies ...</h1>
       </div>
       <div class="col-sm-9">
-        <iframe src="https://www.google.com" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" >
-        </iframe>
+        <div id="bodyPage"></div>
       </div>
           
     </div>
@@ -25,4 +24,9 @@
           </footer>
   </div>
 </body>
+  <script>
+    $(function().ready(){
+      $("#bodyPage").load("https://www.google.com"); 
+    });
+  </script>
 </html>
