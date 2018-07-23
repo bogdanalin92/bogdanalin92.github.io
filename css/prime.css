@@ -9,9 +9,13 @@
 }
 
 div.sidenav{
-    width:30%;
-    padding-left:40px;
-    padding-right:40px;
+    width:20%;
+    padding-left:30px;
+    padding-right:30px;
+}
+div.col-sm-8{
+    float:right;
+    width:80%;
 }
 
 .w3-theme-dark {
