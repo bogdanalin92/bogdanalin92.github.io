@@ -4,6 +4,8 @@
     /* Set gray background color and 100% height */
 .sidenav {
     height: 100%;
+    position: fixed;
+    left: 0;
 }
 
 div.col-sm-3.sidenav{
