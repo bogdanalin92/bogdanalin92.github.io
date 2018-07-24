@@ -63,6 +63,11 @@ footer {
     text-align: center;
 }
 
+.imageTitle {
+    width: 256px;
+    height: 215px;
+    background-image: url(bogdanalin92.github.io/img/sunset_git.jpg) 2x;
+}
 
 @media screen and (max-width: 767px) {
     .sidenav {
