@@ -102,6 +102,17 @@ footer {
         position: fixed;
     }
 }
+@media all and (max-width: 650px) {
+    .col-sm-10 {
+        position: fixed;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        right: 0;
+        display: contents;
+    }
+}
 @media (min-width: 576px) {
     .col-sm-10 {
         -ms-flex: 0 0 83.333333%;
