@@ -30,6 +30,11 @@ div.col-sm-8{
     color:#fff !important; 
     background-color:#2092bf !important
 }
+
+.w3-theme-d4 a {
+    color:   #FF9940; 
+}
+
 .w3-round {
        border-radius:4px;
 }
