@@ -82,8 +82,8 @@ footer {
 }
 
 @media all and (max-width: 1010px) {
-    .sidenav {
-        font-size: 1.5em;
+    .sidenav > h1 h2{
+        font-size: 1.1em;
     }
     .row.content {
         height: auto;
