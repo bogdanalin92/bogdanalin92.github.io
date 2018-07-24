@@ -83,7 +83,8 @@ footer {
 
 @media screen and (max-width: 767px) {
     .sidenav {
-        height: auto;
+        height: 100%;
+        position: fixed;
         padding: 15px;
     }
     .row.content {
