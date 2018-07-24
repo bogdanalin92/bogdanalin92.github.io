@@ -81,7 +81,7 @@ footer {
     font-size: 3em;
 }
 
-@media screen and (max-width: 1010px) {
+@media all and (max-width: 1010px) {
     .sidenav {
         font-size: 1.5em;
     }
@@ -97,6 +97,7 @@ footer {
         position: fixed;
     }
 }
+
 
 @media (min-width: 576px)
 .col-sm-10 {
