@@ -43,13 +43,13 @@ div.col-sm-8{
     width:60%;
     margin-top: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .card-body {
     width:95%;
     margin-left:auto;
     margin-right:auto;
+    margin-top: -35px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -76,6 +76,9 @@ footer {
     background-image: url(https://bogdanalin92.github.io/img/sunset_git.jpg);
     color:white;
     text-align:right;
+    font-family: Monospace, Times, serif;
+    font-style: normal;
+    font-size: 3em;
 }
 
 @media screen and (max-width: 767px) {
