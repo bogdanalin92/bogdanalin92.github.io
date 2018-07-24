@@ -74,7 +74,8 @@ footer {
     width: auto;
     height: 215px;
     background-image: url(https://bogdanalin92.github.io/img/sunset_git.jpg);
-    
+    color:white;
+    text-align:right;
 }
 
 @media screen and (max-width: 767px) {
