@@ -81,12 +81,9 @@ footer {
     font-size: 3em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1010px) {
     .sidenav {
-        height: 100%;
-        position: fixed;
         font-size: 1.5em;
-        padding: 15px;
     }
     .row.content {
         height: auto;
