@@ -114,8 +114,10 @@ footer {
     }
     div.sidenav{
         display: inline-table;
-        position: relative;
-        width: max-content;
+        position: fixed;
+        top:0;
+        width: 100%;
+        height: fit-content;
     }
 }
 @media (min-width: 576px) {
