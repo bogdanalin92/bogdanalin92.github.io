@@ -46,11 +46,18 @@ div.col-sm-8{
     padding-bottom: 5px;
 }
 
+.card-body {
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 .card-3 img {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width: 50%;
 }
 
 footer {
