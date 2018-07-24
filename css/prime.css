@@ -4,12 +4,12 @@
     /* Set gray background color and 100% height */
 .sidenav {
     height: 100%;
-    position: fixed;
     left: 0;
 }
 
 div.sidenav{
     width:20%;
+    position: fixed;
     padding-left:30px;
     padding-right:30px;
 }
