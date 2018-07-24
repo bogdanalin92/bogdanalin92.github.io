@@ -91,4 +91,9 @@ footer {
     .imageTitle {
        font-size: 1.5em; 
     }
+    div.sidenav{
+        width:20%;
+        height: 100%;
+        position: fixed;
+    }
 }
