@@ -96,10 +96,13 @@ footer {
         height: 100%;
         position: fixed;
     }
+}
+@media (min-width: 576px) {
     .col-sm-10 {
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
-        right:0;
+        right: 0;
+        margin-left: auto;
     }
 }
