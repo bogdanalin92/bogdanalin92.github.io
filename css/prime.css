@@ -112,6 +112,9 @@ footer {
         right: 0;
         display: contents;
     }
+    div.sidenav{
+        display: contents;
+    }
 }
 @media (min-width: 576px) {
     .col-sm-10 {
