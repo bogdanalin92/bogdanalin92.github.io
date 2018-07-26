@@ -71,7 +71,15 @@ footer {
     font-style: normal;
     font-size: 3em;
 }
-
+div.sidenav{
+        display: inline-table;
+        position: fixed;
+        padding-left: 30px;
+        padding-right: 30px; 
+        top:0;
+        left:0;
+        height: 100%;
+}
 @media all and (max-width: 1170px) {
     .sidenav .h1, h1 {
         font-size: 1.1em;
@@ -82,15 +90,7 @@ footer {
     .imageTitle {
        font-size: 1.5em; 
     }
-    div.sidenav{
-        display: inline-table;
-        position: fixed;
-        padding-left: 30px;
-        padding-right: 30px; 
-        top:0;
-        left:0;
-        height: 100%;
-    }
+    
     .row{
         bottom: 0;
         margin-left:auto;
