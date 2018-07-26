@@ -108,3 +108,9 @@ div.sidenav{
     }
 }
 
+@media all and (max-width: 1170px) {
+    .row {
+        height: fit-content;
+    }
+}
+
