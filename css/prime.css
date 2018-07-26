@@ -89,6 +89,22 @@ div.sidenav{
     justify-content: space-between !important;
     padding: .5rem 1rem;
 }
+
+@media (max-width: 575px) {
+    div.sidenav {
+        height: fit-content;
+        
+    }
+    .row {
+        margin-top: 120px;
+        margin-bottom: 125px;
+    }
+    nav.justify-content-end {
+        -ms-flex-pack: flex-end!important;
+        justify-content: flex-end!important;
+    }
+}
+
 @media all and (max-width: 1170px) {
     .sidenav h1, .h1 {
         font-size: 1.1em;
@@ -122,18 +138,5 @@ div.sidenav{
     }
 }
 
-@media all and (max-width: 575px) {
-    div.sidenav {
-        height: fit-content;
-        
-    }
-    .row {
-        margin-top: 120px;
-        margin-bottom: 125px;
-    }
-    nav.justify-content-end {
-        -ms-flex-pack: flex-end!important;
-        justify-content: flex-end!important;
-    }
-}
+
 
