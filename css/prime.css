@@ -72,11 +72,10 @@ footer {
     font-size: 3em;
 }
 div.sidenav{
-        display: inline-table;
+        display: inline-block;
         position: fixed;
         padding-left: 30px;
         padding-right: 30px; 
-        top:0;
         left:0;
         height: 100%;
 }
