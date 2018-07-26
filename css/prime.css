@@ -72,7 +72,7 @@ footer {
     font-size: 3em;
 }
 
-@media all and (max-width: 1010px) {
+@media all and (max-width: 1170px) {
     .sidenav .h1, h1 {
         font-size: 1.1em;
     }
@@ -82,8 +82,6 @@ footer {
     .imageTitle {
        font-size: 1.5em; 
     }
-}
-@media (min-width: 576px) {
     div.sidenav{
         display: inline-table;
         position: fixed;
@@ -99,6 +97,7 @@ footer {
         margin-right: auto;
     }
 }
+
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav{
         -ms-flex-direction: column !important;
