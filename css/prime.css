@@ -78,6 +78,7 @@ footer {
 .imageTitle {
     width: auto;
     height: 215px;
+    padding-right: 15px;
     background-image: url(https://bogdanalin92.github.io/img/sunset_git.jpg);
     color:white;
     text-align:right;
