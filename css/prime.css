@@ -120,6 +120,11 @@ footer {
         width: 100%;
         height: fit-content;
     }
+    .container-fluid {
+        bottom: 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
 }
 @media (min-width: 576px) {
     .col-sm-10 {
