@@ -3,11 +3,6 @@
 }
     /* Set gray background color and 100% height */
 
-div.col-sm-8{
-    float:right;
-    width:80%;
-}
-
 .w3-theme-dark {
     color:#fff !important; 
     background-color:#1b7a9f !important
@@ -87,21 +82,8 @@ footer {
     .imageTitle {
        font-size: 1.5em; 
     }
-    div.sidenav{
-        width:20%;
-        height: 100%;
-        position: fixed;
-    }
 }
 @media (min-width: 576px) {
-    .col-sm-10 {
-        position: fixed;
-        width: 100%;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-        display: contents;
-    }
     div.sidenav{
         display: inline-table;
         position: fixed;
