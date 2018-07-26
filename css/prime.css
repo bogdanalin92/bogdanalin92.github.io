@@ -108,7 +108,7 @@ div.sidenav{
     }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 575px) {
     div.sidenav {
         height: fit-content;
         
