@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#bodyPage").load("main.html")});
+$(document).ready(function(){$("#item1").load("main.html")});
