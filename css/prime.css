@@ -103,7 +103,7 @@ div.sidenav{
         padding-left: 30px;
         padding-right: 30px;
         left: 0;
-        height: fit-content;
+        height: 100%;
         z-index: 1;
     }
 }
