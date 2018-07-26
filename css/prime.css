@@ -103,15 +103,13 @@ footer {
         position: fixed;
     }
 }
-@media all and (max-width: 650px) {
+@media (min-width: 576px) {
     .col-sm-10 {
-        position: fixed;
-        width: 100%;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
         right: 0;
-        display: contents;
+        margin-left: auto;
     }
     div.sidenav{
         display: inline-table;
@@ -125,14 +123,10 @@ footer {
         margin-top: 150px;
         margin-bottom: 150px;
     }
-}
-@media (min-width: 576px) {
-    .col-sm-10 {
-        -ms-flex: 0 0 83.333333%;
-        flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-        right: 0;
-        margin-left: auto;
+    .row{
+        bottom: 0;
+        margin-top: 250px;
+        margin-bottom: auto;
     }
 }
 @media (min-width: 992px){
