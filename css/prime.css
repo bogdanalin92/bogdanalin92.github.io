@@ -108,11 +108,3 @@ div.sidenav{
     }
 }
 
-@media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav{
-        -ms-flex-direction: column !important;
-        flex-direction: column !important;
-        -ms-flex-pack: end!important;
-        justify-content: right !important;
-    }
-}
