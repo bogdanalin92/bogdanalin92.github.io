@@ -81,20 +81,30 @@ div.sidenav{
         height: 100%;
 }
 @media all and (max-width: 1170px) {
-    .sidenav .h1, h1 {
+    .sidenav h1, .h1 {
         font-size: 1.1em;
     }
-    .row.content {
-        height: auto;
-    } 
     .imageTitle {
        font-size: 1.5em; 
     }
-    
     .row{
         bottom: 0;
-        margin-left:auto;
-        margin-right: auto;
+        position: relative;
+        margin-top: 250px;
+        margin-bottom: 125px;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        z-index: 0;
+    }
+    div.sidenav {
+        display: block;
+        position: fixed;
+        padding-left: 30px;
+        padding-right: 30px;
+        left: 0;
+        height: fit-content;
+        z-index: 1;
     }
 }
 
