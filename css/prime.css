@@ -116,7 +116,7 @@ div.sidenav{
         height: 100%;
         z-index: 1;
     }
-    .justify-content-end {
+    nav.justify-content-end {
         -ms-flex-pack: center!important;
         justify-content: center!important;
     }
