@@ -131,7 +131,7 @@ div.sidenav{
         margin-top: 120px;
         margin-bottom: 125px;
     }
-    .justify-content-end {
+    nav.justify-content-end {
         -ms-flex-pack: flex-end!important;
         justify-content: flex-end!important;
     }
