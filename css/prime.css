@@ -141,6 +141,17 @@ div.sidenav{
         position: static;
         margin-left: auto;
     }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        padding-left: 10px;
+        padding-right: 175px;
+        left: 0;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
 }
 
 
