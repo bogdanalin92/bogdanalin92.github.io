@@ -127,7 +127,8 @@ div.sidenav{
 @media (max-width: 575px) {
     div.sidenav {
         height: fit-content;
-        
+        display: inline-flex;
+        align-items: baseline;
     }
     .row {
         margin-top: 120px;
@@ -135,7 +136,10 @@ div.sidenav{
     }
     nav.justify-content-end {
         -ms-flex-pack: flex-end!important;
-        justify-content: flex-end!important;
+        justify-content: end!important;
+        display: inline-block;
+        position: static;
+        margin-left: auto;
     }
 }
 
