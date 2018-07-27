@@ -90,6 +90,17 @@ div.sidenav{
     padding: .5rem 1rem;
 }
 
+.nav-link {
+    border: #0D1216 solid 2px;
+    border-radius: 5px;
+    background-color: #202A34;
+    text-decoration: none;
+    color: #D9D8D7;
+    text-shadow: 1px 1px 3px #C4C1BC;
+    text-align: center;
+    display: block;
+    padding: .5rem 1rem;
+}
 
 @media all and (max-width: 1170px) {
     .sidenav h1, .h1 {
