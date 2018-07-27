@@ -93,7 +93,8 @@ div.sidenav{
 
 @media all and (max-width: 1170px) {
     .sidenav h1, .h1 {
-        font-size: 1.1em;
+        font-size: 1.0em;
+        white-space: pre-wrap;
     }
     .imageTitle {
        font-size: 1.5em; 
