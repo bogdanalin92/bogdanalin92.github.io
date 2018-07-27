@@ -102,6 +102,12 @@ div.sidenav{
     padding: .5rem 1rem;
 }
 
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 1px 0px;
+}
+
+
 @media all and (max-width: 1170px) {
     .sidenav h1, .h1 {
         font-size: 1.0em;
@@ -135,6 +141,8 @@ div.sidenav{
         justify-content: center!important;
     }
 }
+
+
 
 @media (max-width: 575px) {
     div.sidenav {
