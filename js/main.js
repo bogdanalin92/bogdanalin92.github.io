@@ -1,4 +1,4 @@
-$basehtml = "/html";
+$basehtml = "/html/";
 $(document).ready(
 
 );
