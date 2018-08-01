@@ -141,7 +141,19 @@ div.sidenav{
         justify-content: center!important;
     }
 }
+.bg {
+    color:#008FFF;
+    -webkit-clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0% 100%, 25% 50%, 76% 49%);
+    clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0% 100%, 25% 50%, 76% 49%);   
+    z-index:-1;
+}
 
+.bg2 {
+    color:#006FC7;
+    -webkit-clip-path: polygon(57% 0, 80% 0%, 26% 100%, 0% 100%);
+    clip-path: polygon(57% 0, 80% 0%, 26% 100%, 0% 100%);   
+    z-index:-1;
+}
 
 
 @media (max-width: 575px) {
