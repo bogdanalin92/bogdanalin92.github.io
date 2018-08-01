@@ -105,12 +105,12 @@ div.sidenav{
 }
 
 .nav-link {
-    border: ##0d121678 solid 1px;
+    border: #0d121678 solid 1px;
     border-radius: 5px;
     background-color: #202A34;
     background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
     text-decoration: none;
-    color: #D9D8D7;
+    color: #1b1e21;
     text-shadow: 1px 1px 3px #C4C1BC;
     text-align: center;
     display: block;
