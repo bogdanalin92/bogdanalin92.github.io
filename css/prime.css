@@ -148,7 +148,7 @@ div.sidenav{
     }
     .row{
         bottom: 0;
-        position: relative;
+        position: inherit;
         margin-top: 0;
         margin-bottom: 125px;
         flex-wrap: wrap;
