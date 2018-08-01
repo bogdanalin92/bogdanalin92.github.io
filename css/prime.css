@@ -164,13 +164,22 @@ div.sidenav{
     -webkit-clip-path: polygon(93% 0, 100% 50%, 90% 100%, 57% 100%, 81% 50%, 60% 0);
     clip-path: polygon(93% 0, 100% 50%, 90% 100%, 57% 100%, 81% 50%, 60% 0); 
     z-index:-1;
+    mix-blend-mode:multiply;
 }
 
 .bgShape2 {
     background-color:#006FC7;
     -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 57% 100%, 43% 47%, 59% 0);
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 57% 100%, 43% 47%, 59% 0);
+    z-index:-3;
+}
+
+.bgShape3 {
+    background-color:#00BCFF;
+    -webkit-clip-path: polygon(25% 0%, 0 0, 75% 100%, 100% 100%);
+    clip-path: polygon(25% 0%, 0 0, 75% 100%, 100% 100%);   
     z-index:-2;
+    mix-blend-mode:multiply;
 }
 
 
