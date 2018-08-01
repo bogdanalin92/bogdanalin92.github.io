@@ -19,7 +19,8 @@ body {
 
 .w3-theme-dark {
     color:#fff !important; 
-    background-color:#1b7a9f !important
+    background-color:#1b7a9f !important;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 .w3-theme-d1 {
     color:#000 !important;
