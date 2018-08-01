@@ -1,7 +1,21 @@
-.row.content{
-    height: 1500px
+body, html {
+    height:100%;
+    margin: 0;
 }
-    /* Set gray background color and 100% height */
+
+body {
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 50% auto;
+    height: auto;
+    align-self: center;
+    margin: 0 50px;
+}
 
 .w3-theme-dark {
     color:#fff !important; 
