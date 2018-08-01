@@ -8,7 +8,9 @@ body {
     grid-template-columns:auto;
     grid-template-rows:auto;
 }
-
+.row {
+    width: 100%;   
+}
 .container{
     display:grid;
     grid-template-columns: 50% auto;
@@ -69,9 +71,9 @@ body {
     -webkit-clip-path: polygon(51% 0, 100% 0, 100% 35%, 100% 70%, 79% 80%, 48% 80%, 21% 79%, 0% 70%, 0% 35%, 0 0);
     clip-path: polygon(51% 0, 100% 0, 100% 35%, 100% 70%, 79% 80%, 48% 80%, 21% 79%, 0% 70%, 0% 35%, 0 0);
     width: 100%;
-    height: 100%;
+    height: auto;
     position: relative;
-    padding-bottom: 35px;
+    padding-bottom: 95px;
     margin-top: 50px;
     background-color:#09203f;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
