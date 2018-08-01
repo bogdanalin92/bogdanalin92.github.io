@@ -147,16 +147,16 @@ div.sidenav{
 }
 .bgShape {
     background-color:#008FFF;
-    -webkit-clip-path: polygon(0 0, 0% 100%, 40% 0);
-    clip-path: polygon(0 0, 0% 100%, 40% 0);  
-    z-index:-2;
+    -webkit-clip-path: polygon(93% 0, 100% 50%, 90% 100%, 57% 100%, 81% 50%, 60% 0);
+    clip-path: polygon(93% 0, 100% 50%, 90% 100%, 57% 100%, 81% 50%, 60% 0); 
+    z-index:-1;
 }
 
 .bgShape2 {
     background-color:#006FC7;
-    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); 
-    z-index:-1;
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 57% 100%, 43% 47%, 59% 0);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 57% 100%, 43% 47%, 59% 0);
+    z-index:-2;
 }
 
 
