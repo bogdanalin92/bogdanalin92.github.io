@@ -146,14 +146,14 @@ div.sidenav{
     position:absolute;
 }
 .bgShape {
-    background:#008FFF;
+    background-color:#008FFF;
     -webkit-clip-path: polygon(0 0, 0% 100%, 40% 0);
     clip-path: polygon(0 0, 0% 100%, 40% 0);  
     z-index:-2;
 }
 
 .bgShape2 {
-    background:#006FC7;
+    background-color:#006FC7;
     -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%); 
     z-index:-1;
