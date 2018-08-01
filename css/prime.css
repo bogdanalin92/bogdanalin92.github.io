@@ -147,15 +147,15 @@ div.sidenav{
 }
 .bgShape {
     color:#008FFF;
-    -webkit-clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0% 100%, 25% 50%, 76% 49%);
-    clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0% 100%, 25% 50%, 76% 49%);   
-    z-index:-1;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 40% 0);
+    clip-path: polygon(0 0, 0% 100%, 40% 0);  
+    z-index:-2;
 }
 
 .bgShape2 {
     color:#006FC7;
-    -webkit-clip-path: polygon(57% 0, 80% 0%, 26% 100%, 0% 100%);
-    clip-path: polygon(57% 0, 80% 0%, 26% 100%, 0% 100%);   
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); 
     z-index:-1;
 }
 
