@@ -68,8 +68,8 @@ body {
 }
 
 .homearticle {
-    -webkit-clip-path: polygon(51% 0, 100% 0, 100% 35%, 100% 70%, 79% 80%, 48% 80%, 21% 79%, 0% 70%, 0% 35%, 0 0);
-    clip-path: polygon(51% 0, 100% 0, 100% 35%, 100% 70%, 79% 80%, 48% 80%, 21% 79%, 0% 70%, 0% 35%, 0 0);
+    -webkit-clip-path: inset(5% 0 0 0);
+    clip-path: inset(5% 0 0 0);
     width: 100%;
     height: auto;
     position: relative;
