@@ -176,7 +176,8 @@ div.sidenav{
     }
 }
 .bgShape, .bgShape2, .bgShape3{
-    width: 100%;
+    width: 550px;
+    right: 0;
     height: 100%;
     position: fixed;
 }
