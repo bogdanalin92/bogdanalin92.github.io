@@ -78,8 +78,8 @@ body {
     position: relative;
     padding-bottom: 95px;
     margin-top: 50px;
-    background-color:##8a9fbb;
-    background-image: linear-gradient(#09203f00 10%, #00000061 30%, #537895 100%)
+    background-color:#8a9fbb;
+    background-image: linear-gradient(#09203f00 10%, #00000061 30%, #537895 100%);
     border-radius: 10px;
 }
 
