@@ -205,11 +205,12 @@ div.sidenav{
     mix-blend-mode:multiply;
 }
 
-@media (min-width: 576px)
+@media (min-width: 576px){
 .col-sm-2 {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 13%;
+}
 }
 
 @media (max-width: 575px) {
