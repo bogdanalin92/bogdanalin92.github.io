@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hcmmedia.bucketlist",
+      "sha256_cert_fingerprints": [
+        "DA:A4:F5:A1:DB:B8:5A:6D:1C:98:CE:DD:BD:D7:C0:CF:F8:13:5B:BB:1C:C7:94:F7:A0:29:DA:66:C5:98:03:7F"
+      ]
+    }
+  }
+]
